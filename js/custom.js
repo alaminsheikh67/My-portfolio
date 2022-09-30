@@ -91,7 +91,7 @@ $('.testimonial-slide').slick({
 $('.back-to-top i').click(function(){
   $('html, body').animate({
     scrollTop:0
-  },200)
+  },500)
 })
 $(window).scroll(function(){
   var scrolling = $(this).scrollTop()
