@@ -19,9 +19,6 @@ h1,h2,h3,h4,h5,h6,p,span{
 img{
     vertical-align: middle;
 }
-html, body {
-    scroll-behavior: unset !important;
-}
 body{
     background-color: #fff;
     font-family: 'Rubik', sans-serif;
@@ -38,7 +35,8 @@ body{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: transparent;
+    color: #fff;
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
     line-height: 40px;
     text-align: center;
     z-index: 999;
@@ -48,8 +46,6 @@ body{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     cursor: pointer;
-    color: #292929;
-    border: 1px solid #292929;
     transition: linear 0.3s;
     -webkit-transition: linear 0.3s;
     -moz-transition: linear 0.3s;
@@ -57,11 +53,7 @@ body{
     -o-transition: linear 0.3s;
     display: none;
 }
-.back-to-top i:hover{
-    color: #fff;
-    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
-    
-}
+
 /* back to top end */
 
 

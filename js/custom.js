@@ -1,7 +1,7 @@
 // preloader
 
 $(window).load(function(){
-  $('.preloader').delay('500').fadeOut(500)
+  $('.preloader').delay('100').fadeOut(100)
 })
 // work lightbox
 lightbox.option({
